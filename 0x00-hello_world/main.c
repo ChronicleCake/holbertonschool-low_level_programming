@@ -10,9 +10,9 @@ int main(void)
 {
 	    return (0);
 }
-julien@ubuntu:~/c/0x00$ export CFILE=main.c
-julien@ubuntu:~/c/0x00$ ./0-preprocessor 
-julien@ubuntu:~/c/0x00$ tail c
+export CFILE=main.c
+./0-preprocessor 
+tail c
 # 942 "/usr/include/stdio.h" 3 4
 
 # 2 "main.c" 2
