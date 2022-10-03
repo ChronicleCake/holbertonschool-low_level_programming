@@ -1,20 +1,19 @@
 #include "main.h"
 /**
- * _islower - Entry point
- * Return: Always 0
+ * _islower - this script check for lowercase
+ * @c: variable
  *
+ * Return: (1) is lowercase else (0)
  */
 
 int _islower(int c)
 {
-	int r = c;
-
-	if (r != c)
+	if (c >= 'a' && c <= 'z')
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
-		return (1);
+		return (0);
 	}
 }
