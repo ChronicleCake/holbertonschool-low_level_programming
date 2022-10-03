@@ -1,20 +1,20 @@
 #include "main.h"
 /**
  * _islower - Entry point
- * Return: 0 (Success)
+ * Return: Always 0
  *
  */
 
 int _islower(int c)
 {
-	int ch = c;
+	int r = c;
 
-	if (ch == c)
+	if (r != c)
 	{
-		return (1);
+		return (0);
 	}
 	else
 	{
-		return (0);
+		return (1);
 	}
 }
