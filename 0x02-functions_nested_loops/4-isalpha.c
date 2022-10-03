@@ -1,9 +1,11 @@
 #include "main.h"
+/* this script checks for upper or lowercase alpha*/
+
 /**
- * _isalhpa - to check for alphabetic character
+ * _isalhpa - to check for an alphabetic character
  * @c: variables for alpha
  *
- * Return: c if letter; 0 if otherwise
+ * Return: 1 if letter, 0 if otherwise
  */
 
 int _isalpha(int c)
