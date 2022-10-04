@@ -6,19 +6,20 @@
 
 void more_numbers(void)
 {
-	int i = 0;
-	char ch = '0';
+	int ch;
+	int c;
 
-	for (i = 0; i <= 9; i++)
+	for (c = 0; c <= 9; c++)
 	{
-		for (ch = 0; ch <= 20; ch++)
+		for (ch = 0; ch <= 14; ch++)
 		{
-			_putchar(ch);
-			if (ch >= 10 || ch <= 15)
+			if (ch >= 10)
 			{
-				continue;
+				_putchar(ch / 10 + '0');
 			}
+			_putchar(ch % 10 + '0');
 		}
-	_putchar('\n');
+	
+		_putchar('\n');
 	}
 }
