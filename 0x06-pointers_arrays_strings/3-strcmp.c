@@ -20,7 +20,6 @@ int _strcmp(char *s1, char *s2)
 	while (s2[b])
 	{
 		b++;
-	
 	}
 	if (a <= b)
 	{
